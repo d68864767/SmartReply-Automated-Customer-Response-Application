@@ -1,0 +1,36 @@
+{
+  "name": "SmartReply",
+  "version": "1.0.0",
+  "description": "SmartReply is a web application that leverages OpenAI's advanced language models to generate intelligent and context-aware responses to customer inquiries.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your_username_/SmartReply.git"
+  },
+  "keywords": [
+    "OpenAI",
+    "GPT",
+    "Customer Support",
+    "Automated Responses",
+    "Analytics Dashboard"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/your_username_/SmartReply/issues"
+  },
+  "homepage": "https://github.com/your_username_/SmartReply#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "openai": "^0.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
